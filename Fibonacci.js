@@ -11,7 +11,7 @@ function Fibonnaci(int number)
 	}
 	else
 	{
-		return number + Fibonnaci(number - 1);
+		return number + Fibonnaci(number - 1);  // Hello Tim, This looks like a recursion to me since Fibonnaci is the name of the function; or is that the way javascript works?
 	}
 }
 
