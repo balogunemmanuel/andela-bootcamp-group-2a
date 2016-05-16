@@ -1,5 +1,5 @@
-function Fibonnaci(int number)
-{
+// a function to generate fibonacci numbers
+function Fibonnaci(int number){
 	if (limit == 1)
 	{
 		return 1;
@@ -13,3 +13,5 @@ function Fibonnaci(int number)
 		return number + Fibonnaci(number - 1);
 	}
 }
+
+
