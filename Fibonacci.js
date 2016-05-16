@@ -1,10 +1,10 @@
 function Fibonnaci(int number)
 {
-	if (limit == 1)
+	if (number == 1)
 	{
 		return 1;
 	}
-	else if (limit == 0)
+	else if (number == 0)
 	{
 		return 1;
 	}
