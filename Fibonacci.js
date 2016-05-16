@@ -1,7 +1,7 @@
 // a function to generate fibonacci numbers
 function myFunction(number)
 {
-    if (number == 0)
+    if (number == 0)         // This is to cater for the initial sequence numbers (0, and 1)
     {
         return [0];
     }
